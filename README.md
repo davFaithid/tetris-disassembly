@@ -24,4 +24,4 @@ Then:
 Be sure to check out [**osnr**'s](https://github.com/osnr/tetris) disassembly of tetris (which is slightly different.)
 
 # Disclaimer
-DISCLAIMER: Any and all content presented in this repository is presented for informational and educational purposes only. Commercial usage is expressly prohibited. I (davFaithid) claim no ownership of any code in these repositories. You assume any and all responsibility for using this content responsibly. I (davFaithid) claim no responsibiliy or warranty.
+DISCLAIMER: Any and all content presented in this repository is presented for informational and educational purposes only. Commercial usage is expressly prohibited. I (davFaithid) claim no ownership of any code in these repositories. You (the "user" or "end user") assume any and all responsibility for using this content responsibly. I (davFaithid) claim no responsibiliy or warranty.
