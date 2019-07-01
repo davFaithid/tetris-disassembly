@@ -9,12 +9,12 @@ Run setup and leave the default settings. At "Select Packages", choose to instal
 - `git`
 - `gcc-core`
 
-Then download [**rgbds**](https://github.com/rednex/rgbds/releases/): the latest **win64** or **win32** release. Extract it and put all the `exe` and `dll` files in the **bin** folder.
-
 In the **Cygwin terminal**, enter these commands:
 
 	git clone https://github.com/davFaithid/tetris-disassembly
 	cd tetris-disassembly
+
+Then download [**rgbds**](https://github.com/rednex/rgbds/releases/): the latest **win64** or **win32** release. Extract it and put all the `exe` and `dll` files in a folder called **bin** in `tetris-disassembly`.
 
 Then:
 
