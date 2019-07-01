@@ -19,3 +19,6 @@ Then download [**rgbds**](https://github.com/rednex/rgbds/releases/): the latest
 Then:
 
 	make
+
+# Other Disassemblies
+Be sure to check out [**osnr**'s](https://github.com/osnr/tetris) disassembly of tetris (which is slightly different.)
