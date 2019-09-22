@@ -1,6 +1,4 @@
 ; Disassembly of "Tetris.gb"
-; This file was created with mgbdis v1.3 - Game Boy ROM disassembler by Matt Currie.
-; https://github.com/mattcurrie/mgbdis
 
 SECTION "ROM Bank $000", ROM0[$0]
 
