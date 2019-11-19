@@ -1,0 +1,44 @@
+﻿// SoundIDs
+static const unsigned int SE_CTR_COMMON_TOUCH = 0x01000000;
+static const unsigned int SE_CTR_COMMON_TOUCHOUT = 0x01000001;
+static const unsigned int SE_CTR_COMMON_TOUCHIN = 0x01000002;
+static const unsigned int SE_CTR_COMMON_TOGGLE = 0x01000003;
+static const unsigned int SE_CTR_COMMON_SILENT = 0x01000004;
+static const unsigned int SE_CTR_COMMON_BUTTON = 0x01000005;
+static const unsigned int SE_CTR_COMMON_OK = 0x01000006;
+static const unsigned int SE_CTR_COMMON_RETURN = 0x01000007;
+static const unsigned int SE_CTR_COMMON_CANCEL = 0x01000008;
+static const unsigned int SE_CTR_COMMON_WAIT = 0x01000009;
+static const unsigned int SE_CTR_COMMON_WAIT_END = 0x0100000A;
+static const unsigned int SE_CTR_COMMON_CONNECT = 0x0100000B;
+static const unsigned int SE_CTR_COMMON_ERROR = 0x0100000C;
+static const unsigned int SE_CTR_COMMON_NOTICE = 0x0100000D;
+static const unsigned int SE_CTR_COMMON_NOMOVE = 0x0100000E;
+static const unsigned int SE_CTR_COMMON_SCROLL = 0x0100000F;
+static const unsigned int SE_CTR_COMMON_SCROLL_LIST = 0x01000010;
+static const unsigned int SE_CTR_COMMON_SCROLL_TEXT = 0x01000011;
+static const unsigned int SE_CTR_COMMON_SCROLL_END = 0x01000012;
+static const unsigned int SE_CTR_COMMON_DIALOG = 0x01000013;
+static const unsigned int SE_CTR_COMMON_SYSAPPLET_END = 0x01000014;
+static const unsigned int SE_CTR_THREEB_MENU_START = 0x01000015;
+static const unsigned int SE_CTR_THREEB_CURSOR_MOVE = 0x01000016;
+static const unsigned int SE_CTR_THREEB_BACKUP_EFFECT = 0x01000017;
+
+// SoundGroupIDs
+// WaveSoundSetIDs
+static const unsigned int WSDSET_CTR_COMMON = 0x02000000;
+// SequenceSoundSetIDs
+static const unsigned int SEQSET_CTR_COMMON = 0x02000001;
+
+// BankIDs
+static const unsigned int BANK_CTR_COMMON = 0x03000000;
+static const unsigned int BANK_CTR_THREEB = 0x03000001;
+
+// PlayerIDs
+static const unsigned int PLAYER_COMMON_SE = 0x04000000;
+static const unsigned int PLAYER_COMMON_SE_WAIT = 0x04000001;
+static const unsigned int PLAYER_COMMON_SE_SCROLL = 0x04000002;
+
+// WaveArchiveIDs
+
+// GroupIDs
