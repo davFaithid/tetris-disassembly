@@ -20,7 +20,7 @@ Then:
 
 	make
 
-#3DS Experimental Version
+# 3DS Experimental Version
 As an experiment, I am trying to make a 3DS VC version too utilizing similar assets to [**this awesome program**] (https://gbatemp.net/threads/437118/)
 Feel free to test it, it is not fully supported yet but hopefully it soon will be.
 It now requires [3dstool] (https://github.com/dnasdw/3dstool/releases/latest) and [makerom] (https://github.com/jakcron/Project_CTR/releases/latest) and the command for 3DS version is
