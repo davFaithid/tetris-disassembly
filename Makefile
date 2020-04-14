@@ -38,7 +38,7 @@ compare: $(roms)
 3ds: $(roms)
 	mv $(roms) vc_rom.bin
 	cp vc_rom.bin 3DS/romfs/rom/vc_rom.bin
-	$(3DSTOOL) -cvtf exefs 3DS/exefs.bin --exefs-dir 3DS/exefs --header 3DS/exefs/header.bin
-	$(3DSTOOL) -cvtf romfs 3DS/romfs.bin --romfs-dir 3DS/romfs
-	$(3DSTOOL) -cvtf cxi 3DS/Tetris.cxi --header 3DS/exefs/ncch.bin --exh 3DS/exefs/exheader.bin --logo 3DS/exefs/logo.bin --exefs 3DS/exefs.bin --romfs 3DS/romfs.bin
+	$(3DSTOOL) -cv -t exefs -f 3DS/exefs.bin --exefs-dir 3DS/exefs --header 3DS/exefs/exefsheader.bin
+	$(3DSTOOL) -cv -t romfs -f 3DS/romfs.bin --romfs-dir 3DS/romfs
+	$(3DSTOOL) -cv -t cxi -f 3DS/Tetris.cxi --header 3DS/ncch.bin --exh 3DS/exheader.bin --not-update-exh-hash --not-update-exefs-hash --not-update-romfs-hash --logo 3DS/exefs/logo.darc.lz --exefs 3DS/exefs.bin --romfs 3DS/romfs.bin
 	$(MAKEROM) -f cia -o Tetris.cia -content 3DS/Tetris.cxi:0:0
