@@ -3,6 +3,8 @@ Tetris (GB) Disassembly compatible with RGBDS (Tested)
 # Building
 Download [**Cygwin**](http://cygwin.com/install.html): **setup-x86_64.exe** for 64-bit Windows, **setup-x86.exe** for 32-bit.
 
+(Note that installing [**MSYS2**](https://www.msys2.org/wiki/MSYS2-installation/) works as well but requires different set up steps)
+
 Run setup and leave the default settings. At "Select Packages", choose to install the following:
 
 - `make`
@@ -27,7 +29,7 @@ It now requires [3dstool](https://github.com/dnasdw/3dstool/releases/latest) and
 
 	make 3ds
 
-and should produce `Tetris.cia` and feel free to test in [Citra] (https://citra-emu.org/) or on console.
+and should produce `Tetris.cia` and feel free to test in [Citra](https://citra-emu.org/), [vvctre](https://vvanelslande.github.io/vvctre/requirements/), or on console.
 # Other Disassemblies
 Be sure to check out [**osnr**'s](https://github.com/osnr/tetris) disassembly of tetris (which is slightly different.)
 
